@@ -27,6 +27,7 @@ ul{
     margin-left: 60rem;
 }
 a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -69,3 +70,43 @@ a{
     margin-top:2rem;
     margin-bottom: 4rem;
 }
+
+footer {
+    background: var(--branco);
+    height: 35vh;
+    display: flex;
+    margin-top: 10vh;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--preto);
+    display: flex;
+  }
+  
+  .button {
+    background-color: var(--verde);
+    border: none;
+    color: var(--branco);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .redes {
+    display: flex;
+    height: 20px;
+  }
+  
+  .logos {
+    display: flex;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+  }
+  
